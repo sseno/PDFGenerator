@@ -19,6 +19,9 @@ import UIKit
  - Binary:    Binary data (NSData)
  - ImageRef:  Image ref (CGImage)
  */
+
+public typealias PDFGeneratorPage = PDFPage
+
 public enum PDFPage {
     /// A white view (CGSize)
     case whitePage(CGSize)
